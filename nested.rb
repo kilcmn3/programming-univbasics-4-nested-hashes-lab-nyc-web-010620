@@ -85,7 +85,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-programmer_hash = programmer_hash[:yukihiro_matsumoto] = "Hello"
+programmer_hash.store(:yukihiro_matsumoto , "Hello")
 
 puts programmer_hash
 
