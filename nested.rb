@@ -82,12 +82,16 @@ def adding_matz
         }
      }
 
-programmer_hash.store(:yukihiro_matsumoto , {
+if programmer_hash.has_key(:yukihiro_matsumoto)
+  return true
+else
+  programmer_hash.store(:yukihiro_matsumoto , {
   :known_for => "Ruby",
    :languages => ["LISP", "C"]
 })
+end
 
-puts adding_matz
+
 
 
 
