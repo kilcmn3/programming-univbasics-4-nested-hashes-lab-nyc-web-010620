@@ -86,7 +86,7 @@ programmer_hash.store(:yukihiro_matsumoto , {
    :languages => ["LISP", "C"]
 })
 
-return programmer_hash.key(:yukihiro_matsumoto)
+return programmer_hash.key
 
 
 
@@ -134,3 +134,4 @@ def adding_to_dennis
      }
 
 end
+  
