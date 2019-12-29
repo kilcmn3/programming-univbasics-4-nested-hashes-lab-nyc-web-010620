@@ -83,7 +83,7 @@ def adding_matz
      }
 
 if programmer_hash.has_key?(:yukihiro_matsumoto)
-  return false
+  return true
 else
   programmer_hash.store(:yukihiro_matsumoto , {
   :known_for => "Ruby",
