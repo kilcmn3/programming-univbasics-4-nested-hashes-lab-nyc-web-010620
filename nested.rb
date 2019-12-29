@@ -86,6 +86,8 @@ programmer_hash.store(:yukihiro_matsumoto , {
    :languages => ["LISP", "C"]
 })
 
+return programmer_hash[:yukihiro_matsumoto]
+
 
 
 end
