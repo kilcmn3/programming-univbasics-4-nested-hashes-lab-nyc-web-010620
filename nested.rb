@@ -81,7 +81,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-
+return programmer_hash[:alan_kay][:known_for] = "Gui"
 
 end
 
