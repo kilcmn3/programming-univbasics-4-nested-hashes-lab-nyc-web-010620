@@ -82,15 +82,12 @@ def adding_matz
         }
      }
 
-if programmer_hash.has_key?(:yukihiro_matsumoto)
-  return true
-else
+
   programmer_hash.store(:yukihiro_matsumoto , {
   :known_for => "Ruby",
    :languages => ["LISP", "C"]
-})
-end
-puts programmer_hash
+}
+
 
 end
 
@@ -116,7 +113,7 @@ def changing_alan
 end
 
 def adding_to_dennis
-	programmer_hash =
+	programmer_hash =  
  		{
         :grace_hopper => {
           :known_for => "COBOL",
